@@ -117,9 +117,11 @@
                 imgLower.onload = function() {
                     bgContainer.style.backgroundImage = `linear-gradient(to right, rgba(0,0,0,0.2), transparent), url('${imgLower.src}')`;
                 };
-                imgLower.src = 'RP-1023.jpg' + cacheBuster;
+                // Now fetching directly from your live GitHub site
+                imgLower.src = 'https://plaherne.github.io/Countdown-to-10-years/RP-1023.jpg' + cacheBuster;
             };
-            imgUpper.src = 'RP-1023.JPG' + cacheBuster;
+            // Now fetching directly from your live GitHub site
+            imgUpper.src = 'https://plaherne.github.io/Countdown-to-10-years/RP-1023.JPG' + cacheBuster;
         }
 
         loadSmartBackground();
